@@ -177,7 +177,7 @@ body {
 }
 
 .msg-text{
-    max-width: 450px;
+    width: 285px;
     padding: 15px;
     border-radius: 15px;
     background: var(--left-msg-bg);
@@ -188,7 +188,7 @@ body {
 }
 
 .msg-textr{
-    max-width: 450px;
+    max-width: 300px;
     padding: 15px;
     border-radius: 15px;
     background: var(--right-msg-bg);
@@ -200,7 +200,7 @@ body {
 
 
 .msg-bubble {
-    max-width: 450px;
+    max-width: 310px;
     padding: 15px;
     border-radius: 15px;
     background: var(--left-msg-bg);
@@ -238,11 +238,11 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 .right-msg .msg-bubble {
-    /* background: var(--right-msg-bg); */
+    background: var(--right-msg-bg);
     text-align: left;
     flex-direction: row-reverse;
     border-bottom-right-radius: 0;
@@ -260,7 +260,8 @@ body {
 
 .msger-inputarea {
     display: flex;
-    padding: 30px;
+    padding: 8px;
+    padding-bottom: 20px;
     /* border-top: var(--border); */
     background: #18181B;
 }
@@ -281,13 +282,12 @@ body {
 
 .msger-send-btn{
     padding: 6px;
-    padding-left: 20px;
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    /* margin-left: 20px; */
+    padding-right: 10px;
     border: 2px solid #0ef;
     background: #18181B;
     border-radius: 60px;
-    font-weight: bold;
     cursor: pointer;
     font-size: 1em;
     color: #fff;
