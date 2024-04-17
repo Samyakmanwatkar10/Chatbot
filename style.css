@@ -134,7 +134,7 @@ body {
     background: #18181B;
     width: 100%;
     max-width: 1067px;
-    margin: 25px 20px;
+    margin: 25px 5px;
     height: calc(100% - 50px);
     border: var(--border);
     border-radius: 5px;
@@ -186,6 +186,7 @@ body {
     position: relative;
     word-break: break-word;
 }
+
 
 .msg-textr{
     max-width: 300px;
@@ -263,6 +264,7 @@ body {
     padding: 8px;
     padding-bottom: 20px;
     /* border-top: var(--border); */
+    gap: 8px;
     background: #18181B;
 }
 
